@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Activity, Radio, Shield, Timer } from "lucide-react";
 
 const GOLD = "#D4AF37";
-const API_URL = "http://localhost:8000/predict";
+const API_URL = "https://etr-backend-gida.onrender.com/predict";
 const POLL_INTERVAL_MS = 5000;
 const HUD_BORDER = "1px solid rgba(212,175,55,0.35)";
 const HUD_GLOW = "0 0 10px rgba(212, 175, 55, 0.3)";
